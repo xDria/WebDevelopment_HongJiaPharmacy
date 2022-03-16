@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<title> 宏家藥局 </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+.center { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-highway-blue w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">宏家藥局</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">成立初心</a>
+    <a href="#service" class="w3-bar-item w3-button w3-padding-large w3-hide-small">服務項目</a>
+    <a href="#medic" class="w3-bar-item w3-button w3-padding-large w3-hide-small">諮詢藥師</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">聯絡我們</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">成立初心</a>
+  <a href="#service" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">服務項目</a>
+  <a href="#medic" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">諮詢藥師</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">聯絡我們</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Home page Image -->
+  <img src="frontcover.jpg" style="width:100%">
+
+  <!-- The 成立初心 Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+    <div class="w3-third w3-row w3-padding-16">
+        <img src="yellowflower.jpg" class="w3-round w3-margin-bottom "  alt="Random Name" style="width:85%">
+    </div>
+    <div class="w3-twothird">
+        <h2 class="w3-wide">成立初心</h2>
+        <p class="w3-opacity"><i>讓人生旅途中再次邁向陽光!</i></p>
+        <p class="w3-justify" style="font-size:1.25em"> &nbsp 職業十多年來，有感於癌症與腎病兩者的罹患率年年攀升，從醫學角度，這類疾病的形成，從出線到臨床上，往往需要一段時間甚至數年時間，才可以看見、偵測得到，而整個治療過程也如同馬拉松式的賽跑。<br>
+          &nbsp病患除了接受治療外，需要清楚身體是否有足夠能力接受治療，因為治療時身體會產生不同的變化，此時應該如何調整、面對，是患者迫切需要知道的!其實很多癌症患者並不是被癌細胞打敗，而是體力不支、營養不夠、免疫力下降，進而失去寶貴的生命。正因如此，激起我要去把關患者的處方，不論是治療疾病的藥物處方，還是在治療過程中身體產生變化所需要的營養處方。<br>
+          &nbsp 由於每個患者的體質、疾病、治療方式不同，不能用同一種模式治療照護。身為醫療專業人員的我，希望透過自己的專業及臨床經驗，能與患者一起深入問題，調整出最適當的處方籤，提升抗病能力，積極去解決種種問題，
+          讓人生旅途中再次邁向陽光!</p>
+    </div>
+  </div>
+
+  <!-- The 服務項目 Section -->
+  <div class="w3-highway-blue"id="service">
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" >
+      <div class="w3-twothird">
+        <h2 class="w3-wide">服務項目</h2>
+       
+        <p class="w3-justify" style="font-size:1.25em">1.用藥評估與諮詢：能否對症下藥以及服用藥物所造成的結果。<br>
+            2.用藥衛教與整合：病患服用藥物之外，如何透過飲食、作息調整身體狀況。<br>
+            3.其他藥事照護相關諮詢：防疫相關問題解析、分享保健養身關鍵。<br>
+        </p>
+        <p class="w3-justify w3-opacity"><i>貼心提醒，防疫期間如果遇到健康疾病相關的問題<br>一定要請教專業的醫護人員歐!</i></p>
+      </div>
+    
+      <div class="w3-third w3-row w3-padding-32">
+         <img src="service.jpg" class="w3-round w3-margin-bottom " " alt="Random Name" style="width:85%">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 諮詢藥師 -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="medic">
+    <div class="w3-half w3-row w3-padding-32">
+        <img src="person.jpg" class="w3-round w3-margin-bottom " alt="Random Name" style="width:90%">
+    </div>
+    
+    <div class="w3-half">
+        <h2 class="w3-wide">諮詢藥師</h2>
+        <p class="w3-opacity"><i>楊文潔&nbsp藥師</i></p>
+        <p class="w3-justify" style="font-size:1.25em" >•	成大生物科技博士班 <br>
+          •	高醫藥學研究所碩士<br>
+          •	考試院藥師高考及格<br>
+          •	奇美醫院臨床藥師<br>
+          </p>
+    </div>
+
+  </div>
+
+  <!-- 聯絡我們 -->
+  <div class="w3-highway-blue"id="contact">
+    <div class="w3-container w3-content w3-padding-64  " style="max-width:800px" >
+      <h2 class="w3-wide w3-center">聯絡我們</h2>
+      <p class="w3-opacity w3-center"><i>Feel free to visit or contact us!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker w3-center" style="width:30px"  ></i> &nbsp 710台南市永康區中正北路294號1樓<br>
+        <i class="fa fa-phone w3-center" style="width:30px"></i> &nbsp 電話:(06)2530-277 &nbsp 0975-258-277<br><br>
+        <img src="qrcode.jpg" class="center w3-round " alt="Random Name" style="width:35%"><br>
+      </div>
+        <div class="w3-col m6">
+        <img src="pharmacy.jpg" class="w3-round w3-margin-bottom " alt="Random Name" style="width:100%">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="map.JPG" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <p class="w3-medium">Built and Designed by Alexandria Vance © 2021</a></p>
+</footer>
+
+<script>
+<!-- Used to toggle the menu on small screens when clicking on the menu button -->
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
+`
